@@ -155,6 +155,7 @@ html {
 /* About Us */
 .flash-1{
     right:0%;
+    width: 88px;
 }
 .aligns{
 align-items: center;
@@ -184,6 +185,7 @@ align-items: center;
 
 .flash-2{
     left: 0%;
+    width: 88px;
 }
 .mobile-ourpillars-top{
     margin-top: 5rem !important;
@@ -373,6 +375,9 @@ img.mt-4.icon-hover {
 }
 
 /*  Careers */
+.fly {
+    width: 88px;
+}
 .Careers h1{
     font-family: 'Gilroy';
     font-weight: 700;
@@ -459,6 +464,9 @@ img.career-hover2{
     display: none;
 
 }
+.fly-2{
+    width: 88px;
+}
 /* contact us */
 .bg-contact{
     background-color: #F7F7F7;
@@ -501,6 +509,7 @@ img.career-hover2{
 
 .flash-33 {
     margin-top: -16rem;
+    width: 88px;
 }
 /* footer */
 .tooltip1{
@@ -1925,7 +1934,7 @@ font-size: 12px;
    }
    /* Our pillars */
    .mobile-ourpillars-top{
-    margin-top: -4rem;
+    margin-top: -4rem !important;
    }
    .ourpillars h1{  
     font-size: 35px;
@@ -1946,7 +1955,7 @@ font-size: 12px;
    }
    /* Our Games */
    .mg-our {
-    /* margin-top: -2rem; */
+    
     margin-top: -18px;
 }
    .mobile-our-games-top{
@@ -1975,11 +1984,12 @@ font-size: 12px;
     margin-bottom: 6rem;
    }
   
-   /* .ourpillars-margin-mobile-1{
+    .ourpillars-margin-mobile-1 , .ourpillars-margin-mobile-2 {
     margin-top: -4rem;
    }
-   .ourpillars-margin-mobile-2{
-    margin-top: -4rem;
+
+   /* .ourpillars-margin-mobile-2{
+    margin-top: -9rem;
     margin-bottom: -3rem;
    } */
   
@@ -1994,7 +2004,9 @@ font-size: 12px;
 /* .ourpillars-2-box-m-top{
     margin-top: -4rem;
 } */
-
+.fly-2 {
+    width: 38px;
+}
 .ourpillars-2 h5{
     font-family: 'Gilroy';
     font-size:32px;
@@ -2047,7 +2059,7 @@ font-size: 12px;
     margin-top: 0rem;
    }
    .contact-heading h1{
-    font-size: 23px;
+    font-size: 26px;
     line-height: 2px;
    }
    .contact-heading p{
@@ -2064,9 +2076,12 @@ font-size: 12px;
     margin: 0 auto;
 }
    .contact-us h1{
-    font-size: 29px;
+    font-size: 27px;
     line-height: 0px;
     align-items: center;
+   }
+   .copyright-p{
+    padding-left: 1rem;
    }
    .contact-in h1{
     font-size: 14px;
@@ -2078,6 +2093,9 @@ font-size: 12px;
    }
    .tab-follow-copyright {
     margin: 0;
+}
+.contact-icon-tab-social{
+    padding-left: 1rem;
 }
 .email-pp{
     padding-top: 0rem !important;
