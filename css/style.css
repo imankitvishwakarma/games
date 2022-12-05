@@ -1161,6 +1161,11 @@ margin-right: -1rem;
     }
    }
    @media (max-width:879px){
+    .section h1 {
+        font-size: 45px;
+        line-height: 42px;
+        min-height: 80px;
+    }
     .ml {
         margin-left: -42px;
         width: 280px;
@@ -1169,6 +1174,19 @@ margin-right: -1rem;
         top: 235px;
         left: -114px;
         width: 407px;
+    }
+    /* about us */
+    .about p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .br-remove p br{
+        display: contents;
+    }
+    /* ourpillars */
+    .ourpillars-1 p, .ourpillars-2 p, .ourpillars-3 p {
+        font-size: 12px;
+        line-height: 18px;
     }
     .ourpillars-hover {
         width: 192px;
@@ -1179,13 +1197,39 @@ margin-right: -1rem;
         font-size: 16px;
         line-height: 18px;
     }
+    /* ourgames */
+    .ourgames-h1{
+        margin-top: -3rem;
+    }
+    /* contact us */
+    .contact-heading h1 {
+        font-size: 72px;
+        line-height: 75px;
+    }
+    .contact-heading p {
+        font-size: 14px;
+        line-height: 25px;
+    }
     .contact-us h1 {
         font-size: 28px;
         line-height: 12px;
     }
+    .contact-in p {
+        font-size: 12px;
+        line-height: 20px;
+    }
     /* .fb-icon {
         margin-right: 67px;
     } */
+    /* footer */
+    .footer-img {
+        width: 195px;
+    }
+    .change-flex{
+        margin-left: -3rem;
+        margin-top: -10px;
+        justify-content: space-around;
+}
     .footer-in {
         margin-right: -2rem;
     }
