@@ -1225,11 +1225,7 @@ margin-right: -1rem;
     .footer-img {
         width: 195px;
     }
-    .change-flex{
-        margin-left: -3rem;
-        margin-top: -10px;
-        justify-content: space-around;
-}
+    
     .footer-in {
         margin-right: -2rem;
     }
@@ -1741,6 +1737,9 @@ font-size: 12px;
    font-size: 14px;
    line-height: 12px;
    }
+   .change-flex-2{
+    text-align: center;
+   }
    .change-flex-1{
     margin: 0 auto
     
@@ -2110,8 +2109,9 @@ font-size: 12px;
     font-size: 12px;
     line-height: 16px;
 }
-.change-flex-1 {
-    margin: 0;
+.change-flex-2 {
+   
+    margin: 0 auto;
 }
 .contact-center {
     margin: 0 auto;
